@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.10.0](https://github.com/kamp-us/phoenix/compare/fabrika-cli-v0.9.0...fabrika-cli-v0.10.0) (2026-10-03)
+
+
+### Features
+
+* **epic:** Run a test-audit subsystem sweep over every test surface in the repo ([#10122](https://github.com/kamp-us/phoenix/issues/10122)) ([e9210e4](https://github.com/kamp-us/phoenix/commit/e9210e418cf0913607579d1cc8420ac7a9a6ff32))
+* On-call clocks and routing follow when prep ran, not when the issue arrived ([#10303](https://github.com/kamp-us/phoenix/issues/10303)) ([a3cf4e3](https://github.com/kamp-us/phoenix/commit/a3cf4e329d0204fe07e16aee9319de61e5e01828))
+* **table:** table route --dry-run plans its on-call adds, cells and table-row deletes without sending them ([#10305](https://github.com/kamp-us/phoenix/issues/10305)) ([#10306](https://github.com/kamp-us/phoenix/issues/10306)) ([3e4eae4](https://github.com/kamp-us/phoenix/commit/3e4eae4a2a4e4f6469d52142c183a69a2185d33c))
+
+
+### Bug Fixes
+
+* **hook:** worktree-create no longer runs build reap before it provisions ([#10342](https://github.com/kamp-us/phoenix/issues/10342)) ([#10352](https://github.com/kamp-us/phoenix/issues/10352)) ([fc80a96](https://github.com/kamp-us/phoenix/commit/fc80a96af89993ec82473229bb0472b1a8b002ca))
+* No preview D1 carries a test account, so every :auth render refuses and signed-in surfaces are unjudgeable ([#10341](https://github.com/kamp-us/phoenix/issues/10341)) ([6cee27a](https://github.com/kamp-us/phoenix/commit/6cee27a708e83e43eb745ddff41be06632288daf))
+
 ## [0.9.0](https://github.com/kamp-us/phoenix/compare/fabrika-cli-v0.8.1...fabrika-cli-v0.9.0) (2026-09-30)
 
 
